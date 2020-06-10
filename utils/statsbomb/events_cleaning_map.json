@@ -21,7 +21,7 @@
           "cross": "cross",
           "cut_back": "cut_back",
           "switch": "switch",
-          "body_part": "body_part.name",
+          "body_part": "body_part.name"
       },
       "shots": {
           "aerial_won": "aerial_won",
@@ -33,7 +33,7 @@
           "technique": "technique.name",
           "body_part": "body_part.name",
           "type": "type.name",
-          "outcome": "outcome.name",
+          "outcome": "outcome.name"
       },
       "starting_xis": {"formation": "formation", "lineup": "lineup"},
       "tactical_shifts": {"formation": "formation", "lineup": "lineup"},
