@@ -4,7 +4,7 @@ import json
 from pkg_resources import resource_filename
 
 def _events_cleaning_map():
-   with open(resource_filename(__name__, './events_cleaning_map.json')) as json_map:
+   with open(resource_filename(__name__, 'events_cleaning_map.json')) as json_map:
        return(json.load(json_map))
 
 def _find(element_path):
