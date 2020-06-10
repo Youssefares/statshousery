@@ -1,0 +1,43 @@
+{
+    "modify": {
+      "50/50s": {"outcome": "outcome.name"}, 
+      "ball_receipts": {"outcome": "outcome"},
+      "ball_recoverys": { "offensive": "offensive", "recovery_failure": "recovery_failure"},
+      "blocks": {"deflection": "deflection", "offensive": "offensive", "save_block": "save_block"},
+      "carrys": {"end_location": "end_location"},
+      "clearances": {"aerial_won": "aerial_won", "body_part": "body_part"},
+      "dribbles": { "outcome": "outcome.name"},
+      "duels": {"outcome": "outcome.name", "type": "type.name"},
+      "foul_committeds": {"advantage": "advantage", "penalty": "penalty", "card": "card.name", "type": "type.name"},
+      "foul_wons": {"advantage": "advantage", "defensive": "defensive", "penalty": "penalty"},
+      "interceptions": {"outcome": "outcome.name"},
+      "passes": {
+          "end_location": "end_location", "height": "height.name", "length": "length",
+          "assisted_shot_id": "assisted_shot_id","type": "type.name",
+          "technique": "technique.name",
+          "outcome": "outcome.name",
+          "shot_assist": "shot_assist",
+          "goal_assist": "goal_assist",
+          "cross": "cross",
+          "cut_back": "cut_back",
+          "switch": "switch",
+          "body_part": "body_part.name",
+      },
+      "shots": {
+          "aerial_won": "aerial_won",
+          "key_pass_id": "key_pass_id",
+          "follows_dribble": "follows_dribble",
+          "first_time": "first_time",
+          "xG": "statsbomb_xg",
+          "deflected": "deflected",
+          "technique": "technique.name",
+          "body_part": "body_part.name",
+          "type": "type.name",
+          "outcome": "outcome.name",
+      },
+      "starting_xis": {"formation": "formation", "lineup": "lineup"},
+      "tactical_shifts": {"formation": "formation", "lineup": "lineup"},
+      "substitutions": {"replacement": "replacement.name"}
+    },
+    "copy_unmodified": ["dribbled_pasts", "dispossesseds", "pressures", "half_ends"]
+}
