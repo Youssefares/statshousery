@@ -2,6 +2,7 @@ import operator
 import functools as f
 import json
 from pkg_resources import resource_filename
+import pandas as pd
 
 def _events_cleaning_map():
    with open(resource_filename(__name__, 'events_cleaning_map.json')) as json_map:
