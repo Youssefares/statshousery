@@ -6,8 +6,6 @@ def _events_cleaning_map():
    with open('./events_cleaning_map.json') as json_map:
        return(json.load(json_map))
 
-
-
 def _find(element_path):
     return lambda json: f.reduce(lambda a, b:  a[b] if a and a == a and b in a else None, element_path.split('.'), json)
 
@@ -21,7 +19,6 @@ def format_events(events, details_col, paths):
   ]
 
   return pd.concat([events_without_generic_cols, details], axis=1)
-
 
 def clean_events(events):
   def column_name(event_name):
